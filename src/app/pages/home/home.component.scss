@@ -1,18 +1,173 @@
-h2 {
-  margin-top: 40px;
+.background-image {
+  background-image: url('../../../assets/images/backgrounds/Qatar-Foundation-1.jpg');
+  height: 435px;
+  width: 100%;
+  padding-top: 60px;
+  top: 80px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
-button {
-  background: #333;
+
+#study {
+  height: 200px;
   color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
-
-   &:last-of-type {
-    margin-left: 5px;
-  }
+  background: url('../../../assets/images/elements_home/bar_right.png') no-repeat;
+  background-size: 100% 100%;
 }
 
-b {
-  color: grey;
+h1 {
+  padding: 30px;
+  margin: 0px;
+  margin-right: 10%;
+  margin-left: 30%;
 }
+
+#teacher {
+  height: 200px;
+  color: white;
+  background: url('../../../assets/images/elements_home/bar_left.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.bigIcon {
+  width: 200px;
+  height: 200px;
+}
+
+#icon {
+  width: 45px;
+  cursor:hand;
+}
+
+.HorizontalRow {
+  padding-left: 20px;
+  padding-right:20px;
+  padding-bottom: 10px;
+}
+
+#search {
+  position: relative;
+  top:2.5rem;
+}
+
+#jumword {
+  background-color: rgba(169, 197, 220, 0.75);
+  color:white;
+  position: relative;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 7%;
+  text-align: center;
+  z-index: 2
+}
+
+.iconText {
+  font-size:20px;
+}
+
+
+//#picture1,#picture3{
+//  padding-right: 1.75%;
+//}
+//
+//#picture2,#picture4{
+//  padding-left: 1.75%;
+//}
+
+//.tpic {
+//  max-width:100%;
+//  height:300px;
+//}
+
+
+
+//#custom-templates .empty-message {
+//  padding: 5px 10px;
+//  text-align: center;
+//}
+
+
+//nav,
+//nav .nav-wrapper i,
+//nav a.button-collapse i {
+//  height: 50px;
+//  line-height: 50px;
+//}
+
+/*
+.tt-menu{
+    margin: "12px 0",
+}*/
+
+
+//.typeahead,
+//.tt-query,
+//.tt-hint {
+//  /*  width: 150px;*/
+//  height: 40px;
+//  padding: 8px 12px;
+//  font-size: 24px;
+//  line-height: 30px;
+//  border: 2px solid #ccc;
+//  -webkit-border-radius: 40px;
+//  -moz-border-radius: 40px;
+//  border-radius: 40px;
+//  outline: none;
+//}
+
+//.typeahead {
+//  background-color: #fff;
+//}
+//
+//.typeahead:focus {
+//  border: 2px solid #0097cf;
+//}
+//
+//.tt-query {
+//  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+//  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+//  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+//}
+//
+//.tt-hint {
+//  color: #999
+//}
+
+//.tt-menu {
+//  width: 100px;
+//  margin: 12px 0;
+//  padding: 8px 0;
+//  background-color: #fff;
+//  border: 1px solid #ccc;
+//  border: 1px solid rgba(0, 0, 0, 0.2);
+//  -webkit-border-radius: 8px;
+//  -moz-border-radius: 8px;
+//  border-radius: 8px;
+//  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+//  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+//  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+//}
+
+//.tt-suggestion {
+//  color:black;
+//  padding: 3px 20px;
+//  font-size: 18px;
+//  line-height: 24px;
+//}
+//
+//.tt-suggestion:hover {
+//  cursor: pointer;
+//  color: #fff;
+//  background-color: #0097cf;
+//}
+//
+//.tt-suggestion.tt-cursor {
+//  color: #fff;
+//  background-color: #0097cf;
+//
+//}
+//
+//.tt-suggestion p {
+//  margin: 0;
+//}

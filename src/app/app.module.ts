@@ -6,16 +6,21 @@ import { AppComponent } from './app.component';
 import { PagesModule } from './pages/pages.module';
 import { CoreModule } from './core/core.module';
 import { APP_CONFIG, APP_CONSTANTS } from './app.config';
-
+import { FooterComponent } from './footer/footer.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    CoreModule
+    CoreModule,
+    NgbModule
   ],
   providers: [
     { provide: APP_CONFIG, useValue: APP_CONSTANTS },

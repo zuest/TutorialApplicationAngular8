@@ -1,52 +1,75 @@
-<p>
-  {{'home.welcome' | translate}}
-</p>
 
-<p>Check your Web Browser's Local Storage!</p>
+  <!--<navbar></navbar>-->
+  <div class="background-image">
+    <div class = "HorizontalRow" id= "jumword">
+      <br>
+      <div class="HorizontalRow">
+          <h3 style="font-size: 2.7rem" >Welcome to Fahmni</h3>
+          <h5 style="font-size: 1.34rem">With Fahmni, you will be able to find the top tutors in Qatar within seconds</h5>
+          <h5 style="font-size: 1.34rem">Become a tutor? Its completely FREE!</h5>
+      </div>
+      <div class="HorizontalRow">
+        <div class = "word">
+          <p style="font-size: 30px"></p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <div class="p-2"><input id = "searchInput" type="text" class="form-control typeahead" placeholder="I want to learn.." >
+            <input class="btn light-blue darken-2" type="submit" value="submit" style="display:none"></div>
+          <div class="p-2">  <img src="../../../assets/images/icons/icon_search.png" id="icon"  (click)="search()" alt="search icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<button type="button" (click)="setLanguage('en')">English</button>
-<button type="button" (click)="setLanguage('es')">Spanish</button>
+  <div class = "HorizontalRow center-align" id= "study">
+    <h1>Start learning journey</h1>
+  </div>
 
-<h2>Angular 8 Seed</h2>
 
-This is all You actually need to start a fresh professional <b>Angular 8 App</b>,
-following best practices and scaffolded with the most and useful modules and services including:
 
-<h2>Core Module</h2>
-CoreModule is a conventional name for an NgModule with providers for the singleton services
-you load when the application starts. Includes <b>LanguageService</b> and <b>ErrorHandlerService</b>.
 
-<h2>Shared Module</h2>
-SharedModule is a conventional name for an NgModule with the components, directives, and
-pipes that you use everywhere in your app.
+  <div class="container">
+    <div class="row justify-content-center">
+      <div >
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/students/choose.png">
+        <p class = "iconText HorizontalRow center-aligned">Search a Tutor</p>
+      </div>
+      <div >
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/students/schedule.png">
+        <p class = "iconText HorizontalRow">Choose a timeslot</p>
+      </div>
+      <div >
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/students/signup.png">
+        <p class = "iconText HorizontalRow">Sign yourself up</p>
+      </div>
+      <div>
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/students/signupStudent.png">
+        <p class = "iconText HorizontalRow">Welcome to Tuttee journey!</p>
+      </div>
+    </div>
+  </div>
 
-<h2>Http Service</h2>
-Get data from any API with the public methods (<b>CRUD</b>). Accepts HttpHeader and HttpParams as arguments.
-
-<h2>Translation Service</h2>
-Translate your App easy way by just creating a json file at '<b>assets/i18n/</b>' following
-other languages pathern's.
-
-Here is how a <b>JSON</b> should lools like
-<p>
-  <code>"home.welcome": "Welcome!"</code>
-</p>
-
-On the HTML you can call this simply
-<p>
-  <code>&#10100;&#10100; 'home.welcome' | translate &#10101;&#10101;</code>, make sure
-  the parameter it's an string
-</p>
-
-<h2>Error Handler Service</h2>
-Customize your Error messages with this Service.
-
-<h2>Components Module</h2>
-Used to combine all shared components within your application such cards, inputs, footers, headers, etc...
-
-<h2>PWA Support</h2>
-Progressive Web App Support
-
-<h2>Pipes, Interfaces Modules</h2>
-This modules are prepared so you just need to create your
-<b>Pipes</b> and <b>Interfaces</b> and you are ready to go.
+  <div class = "HorizontalRow center-align" id= "teacher">
+    <h1>Start tutoring</h1>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div>
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/teachers/contact.png">
+        <p class = "iconText HorizontalRow">Contact us for interview</p>
+      </div>
+      <div>
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/teachers/upload.png">
+        <p class = "iconText HorizontalRow">Upload your profile to us</p>
+      </div>
+      <div >
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/teachers/approve.png">
+        <p class = "iconText HorizontalRow">Approved by us</p>
+      </div>
+      <div>
+        <img class = "HorizontalRow bigIcon" src = "../../../assets/images/teachers/signupTutor.png">
+        <p class = "iconText HorizontalRow">Become a new Tuttee tutor!</p>
+      </div>
+    </div>
+  </div>
