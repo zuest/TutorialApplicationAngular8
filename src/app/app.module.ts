@@ -9,11 +9,13 @@ import { APP_CONFIG, APP_CONSTANTS } from './app.config';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { AboutUsComponent } from './about-us/about-us.component';
 @NgModule({
   declarations: [
     AppComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    AboutUsComponent
   ],
   imports: [
     BrowserModule,

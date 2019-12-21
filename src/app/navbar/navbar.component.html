@@ -9,24 +9,78 @@
         <a class="nav-link" href="#">Find a tutor <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" href="/about">About us</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">Sign up</a>
+        <a class="nav-link" data-toggle="modal" data-target="#register-modal" href="#">Sign up</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link" href="#">Log in</a>
+        <a class="nav-link" data-toggle="modal" data-target="#login-modal" href="#">Log in</a>
       </li>
     </ul>
-      <!--<li class="nav-item dropdown">-->
-        <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
-          <!--Dropdown link-->
-        <!--</a>-->
-        <!--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
-          <!--<a class="dropdown-item" href="#">Action</a>-->
-          <!--<a class="dropdown-item" href="#">Another action</a>-->
-          <!--<a class="dropdown-item" href="#">Something else here</a>-->
-        <!--</div>-->
-      <!--</li>-->
+    <!--<li class="nav-item dropdown">-->
+    <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">-->
+    <!--Dropdown link-->
+    <!--</a>-->
+    <!--<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">-->
+    <!--<a class="dropdown-item" href="#">Action</a>-->
+    <!--<a class="dropdown-item" href="#">Another action</a>-->
+    <!--<a class="dropdown-item" href="#">Something else here</a>-->
+    <!--</div>-->
+    <!--</li>-->
   </div>
 </nav>
+
+
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="action-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="login-form">
+        <form action="" class="container">
+          <input type="text" class="form-input" placeholder="Email" name="email" autocomplete="off">
+          <input type="password" class="form-input" placeholder="Password" name="password" autocomplete="off">
+          <input type="submit" class="form-input btn-login" value="LOGIN">
+        </form>
+        <div class="modal-footer">
+          <p class="footer-info">
+            Looking to <a data-toggle="modal" href="" data-dismiss="modal" aria-label="Close" data-target="#register-modal" id="login">create an account</a> ?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+
+
+      <div id="register-form">
+        <form action="" class="container">
+          <input type="text" class="form-input" placeholder="Email" name="email" autocomplete="off">
+          <input type="password" class="form-input" placeholder="Password" name="password" autocomplete="off">
+          <input type="password" class="form-input" placeholder="Repeat Password" name="password" autocomplete="off">
+          <input type="submit" class="form-input btn-login" value="CREATE ACCOUNT">
+        </form>
+        <div class="modal-footer">
+          <p class="footer-info">
+            Already have an account? <a href="" data-toggle="modal" data-dismiss="modal" aria-label="Close" data-target="#login-modal" id="register">Login</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

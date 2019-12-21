@@ -20,7 +20,8 @@ h1 {
   padding: 30px;
   margin: 0px;
   margin-right: 10%;
-  margin-left: 30%;
+  margin-left: 28%;
+  font-size: 3.2rem;
 }
 
 #teacher {
@@ -65,6 +66,25 @@ h1 {
 .iconText {
   font-size:20px;
 }
+
+@media (max-width: 767.98px) {
+  h5 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+
+  #icon {
+    width: 40px;
+    cursor:hand;
+  }
+
+}
+
 
 
 //#picture1,#picture3{
